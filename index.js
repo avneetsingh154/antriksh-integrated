@@ -76,6 +76,12 @@ document.querySelector(".leftmic").addEventListener("click", function () {
         console.log("opening bhuvan Adhaar");
         window.open("https://bhuvan-app3.nrsc.gov.in/aadhaar/");
       }
+      if (text.includes("show highlights")) {
+        p = document.createElement("p");
+        p.classList.add("replay");
+        console.log("opening bhuvan Adhaar");
+        window.open("highlights.html");
+      }
       if (text.includes("open nrsc")) {
         p = document.createElement("p");
         p.classList.add("replay");
